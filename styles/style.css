@@ -46,3 +46,36 @@ a {
 
 input {
   border: 0px; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.white-button, .dark-button {
+  padding: 10px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-style: solid;
+  border-width: 2px; }
+
+.white-button {
+  border-color: #2d2640;
+  background-color: #fafafa; }
+  .white-button .a {
+    color: #2d2640; }
+  .white-button:hover {
+    background-color: #2d2640;
+    border-color: #fafafa; }
+    .white-button:hover .a {
+      color: #fafafa; }
+
+.dark-button {
+  border-color: #fafafa;
+  background-color: #2d2640; }
+  .dark-button .a {
+    color: #fafafa; }
+  .dark-button:hover {
+    background-color: #fafafa;
+    border-color: #2d2640; }
+    .dark-button:hover .a {
+      color: #2d2640; }
